@@ -89,6 +89,20 @@ nav a:not(#button):hover {
 h1 {
   font-family: "Press start 2P", sans-serif;
   font-size: 40px;
+  color: #6b1525;
+  text-shadow: 4px 4px 0 #000;
+}
+
+h2 {
+  font-family: "Press start 2P", sans-serif;
+  font-size: 30px;
   color: #f3d694;
   text-shadow: 4px 4px 0 #000;
+}
+
+#box {
+  background-color: #00a078;
+  width: 630px;
+  height: 185px;
+  box-shadow: 6px 6px 0 #000;
 }
