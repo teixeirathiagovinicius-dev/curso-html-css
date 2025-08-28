@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Press start 2P", sans-serif;
+  font-size: 40px;
+  color: #6b1525;
+  text-shadow: 4px 4px 0 #000;
+}
+
+h2 {
+  font-family: "Press start 2P", sans-serif;
+  font-size: 30px;
+  color: #f3d694;
+  text-shadow: 4px 4px 0 #000;
+}
+
+.box {
+  display: inline-block;
+  background-color: #5a6165;
+  width: 630px;
+
+  box-shadow: 10px 10px 0 #000;
+  text-align: center;
+  padding: 42px 0px;
+}
+
+.box h1 {
+  margin-bottom: 28px;
+}

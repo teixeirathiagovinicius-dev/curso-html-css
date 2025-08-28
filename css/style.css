@@ -1,81 +1,12 @@
-/* Header */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #002f27;
-  height: auto;
-  border-bottom: 10px solid #000;
-  padding: 10px 20px;
-}
-.Logo {
-  width: 60px;
-  height: 60px;
-  margin: 0;
-  image-rendering: pixelated;
-}
-
-nav {
-  text-align: right;
-}
-
-a {
-  display: inline-flex;
-  align-items: center;
-  color: beige;
-  font-size: 20px;
-  font-family: "Fira code", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  margin-right: 30px;
-}
-
-a:not(#button)::before {
-  content: "";
-  background-color: #00a078;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-#button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #00a078;
-  height: 60px;
-  line-height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-shadow: 5px 5px 0px black;
-  margin-right: 0;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-#button:hover {
-  box-shadow: 0 0 20px #00a078;
-  transform: scale(1.1);
-}
-nav a:not(#button):hover {
-  transform: scale(1.1);
-}
-
-/* Hero */
-
 #hero {
-  width: 100%;
+  box-sizing: border-box;
+  background-size: 100%;
   height: 80vh;
   background: url("../img/BackgroundHero.png") no-repeat center center;
   background-size: cover;
   image-rendering: pixelated;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-bottom: solid 10px black;
+  padding-left: 440px;
 }
 
 .Personagem1 {
@@ -86,23 +17,19 @@ nav a:not(#button):hover {
   image-rendering: pixelated;
 }
 
-h1 {
-  font-family: "Press start 2P", sans-serif;
-  font-size: 40px;
-  color: #6b1525;
-  text-shadow: 4px 4px 0 #000;
+#hero .myhero {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
 }
 
-h2 {
-  font-family: "Press start 2P", sans-serif;
-  font-size: 30px;
-  color: #f3d694;
-  text-shadow: 4px 4px 0 #000;
+#hero .box {
+  margin-bottom: 40px;
+  margin-top: 190px;
 }
 
-#box {
-  background-color: #00a078;
-  width: 630px;
-  height: 185px;
-  box-shadow: 6px 6px 0 #000;
+#hero .caixa2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
