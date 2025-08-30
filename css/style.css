@@ -1,35 +1,59 @@
-#hero {
+/*css da sessao Skills*/
+
+.section {
   box-sizing: border-box;
-  background-size: 100%;
-  height: 80vh;
-  background: url("../img/BackgroundHero.png") no-repeat center center;
-  background-size: cover;
+  background-color: #5a6165;
+  border-bottom: solid 10px #000;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-list .skill {
+  width: 430px;
+}
+
+.title.-second {
+  color: #fff;
+  font-size: 22px;
+  text-shadow: 2px 2px 0 #000;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+.icone {
+  width: 90px;
+  height: 90px;
   image-rendering: pixelated;
-  border-bottom: solid 10px black;
-  padding-left: 440px;
+  margin-right: 10px;
 }
 
-.Personagem1 {
+.skill {
   display: flex;
-  position: absolute;
-  right: 80px;
-  top: 170px;
-  image-rendering: pixelated;
 }
 
-#hero .myhero {
-  display: flex;
-  flex-direction: column;
-  width: 640px;
+progress {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: #000 solid 5px;
+  height: 30px;
 }
 
-#hero .box {
-  margin-bottom: 40px;
-  margin-top: 190px;
+progress::-webkit-progress-bar {
+  background-color: #fff; /* fundo */
 }
 
-#hero .caixa2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+progress::-webkit-progress-value {
+  background-color: #6b1525;
 }
