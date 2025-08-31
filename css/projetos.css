@@ -1,0 +1,21 @@
+.section.-projetos {
+  background-color: #004531;
+}
+
+.title.-white {
+  color: #fff;
+}
+
+.projetos-logo {
+  width: 300px;
+  height: 300px;
+  background-color: #f3d694;
+  box-shadow: 20px 20px 0 #000;
+  margin-left: 40px;
+}
+
+.grupo-projetos {
+  margin-top: 50 px;
+  margin-left: 230px;
+  margin-bottom: 20px;
+}
